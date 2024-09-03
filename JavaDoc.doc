@@ -1,0 +1,9 @@
+ The inheritance principle allows us to reuse code by creating new classes that inherit from existing classes.
+
+ The polymorphism principle allows different types of objects to behave differently depending on their type.
+ 
+ In this application, the Vehicle class is an abstract class that defines the common properties and methods of all vehicles.
+ 
+ The Car class and the Motorcycle class inherit from the Vehicle class, and they can each add their own specific properties and methods.
+ 
+ The startEngine() method is defined in the Vehicle class, but the Car class and the Motorcycle class can override the startEngine() method to provide their own implementation of the method.
